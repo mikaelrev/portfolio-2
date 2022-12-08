@@ -1,0 +1,22 @@
+.hero {
+  display: grid;
+  place-items: center;
+}
+
+.hero__info {
+  text-align: center;
+}
+
+.hero__button {
+  margin-top: 1rem;
+  padding: 10px;
+  font-size: 1rem;
+  background-color: orange;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.hero__button:hover {
+  background-color: yellow;
+}

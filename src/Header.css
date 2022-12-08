@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  color: white;
+}
+
+.header__left {
+  flex: 2;
+}
+
+.header__right {
+  display: flex;
+  flex: 2;
+  justify-content: space-evenly;
+}
