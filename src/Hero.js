@@ -1,5 +1,6 @@
 import React from "react";
 import "./Hero.css";
+import { NavLink } from "react-router-dom";
 
 function Hero() {
   return (
@@ -7,7 +8,9 @@ function Hero() {
       <div className="hero__info">
         <h1>Hello, I'm Mikael</h1>
         <p>I like coding</p>
-        <button className="hero__button">Contact me</button>
+        <NavLink to="/contact" className="hero__button">
+          Contact me
+        </NavLink>
       </div>
     </div>
   );

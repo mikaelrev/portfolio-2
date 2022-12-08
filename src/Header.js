@@ -1,18 +1,21 @@
 import React from "react";
 import HeaderLinks from "./HeaderLinks";
+import { NavLink } from "react-router-dom";
 import "./Header.css";
 
 function Header() {
   return (
     <div className="header">
       <div className="header__left">
-        <h1>mikael</h1>
+        <NavLink className="header__logo" to="/">
+          Mikael
+        </NavLink>
       </div>
       <div className="header__right">
-        <HeaderLinks title="About" />
-        <HeaderLinks title="Skills" />
-        <HeaderLinks title="My projects" />
-        <HeaderLinks title="Contact" />
+        <HeaderLinks link="/about" title="About" />
+        <HeaderLinks link="/skills" title="Skills" />
+        <HeaderLinks link="/projects" title="My projects" />
+        <HeaderLinks link="/contact" title="Contact" />
       </div>
     </div>
   );

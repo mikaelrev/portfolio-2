@@ -1,7 +1,40 @@
+:root {
+  --container-margin-top: 3rem;
+  --container-margin-inline: 10rem;
+
+  --clr-primary: orange;
+  --clr-secondary: lightblue;
+  --clr-background: gray;
+  --clr-neutral: white;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 * {
   margin: 0;
 }
 
+html, body {
+  height: 100%;
+  background-color: var(--clr-background);
+}
+
 body {
-  background-color: gray;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
 }

@@ -1,10 +1,13 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
+import "./HeaderLinks.css";
 
-function HeaderLinks({ Icon, title }) {
+function HeaderLinks({ link, title }) {
   return (
-    <div className="headerLinks">
-      {Icon && <Icon className="headerLinks__icon" />}
-      <h3 className="headerLinks__title">{title}</h3>
+    <div>
+      <NavLink className="header__links" to={link}>
+        {title}
+      </NavLink>
     </div>
   );
 }

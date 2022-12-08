@@ -1,22 +1,32 @@
-.hero {
+.about {
   margin-top: var(--container-margin-top);
   margin-inline: var(--container-margin-inline);
-  text-align: center;
 }
 
-.hero__info > p {
-  margin-bottom: 1.5rem;
+.about__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-content: center;
+  gap: 3rem;
+  place-items: center;
 }
 
-.hero__button {
+.about__bio {
+  display: flex;
+  flex-direction: column;
+}
+
+.about__link {
   color: var(--clr-neutral);
   border-radius: 3px;
   text-decoration: none;
   background-color: var(--clr-secondary);
+  margin-top: 1em;
   padding: 10px;
   width: fit-content;
 }
 
-.hero__button:hover {
+.about__link:hover {
   background-color: var(--clr-primary);
 }
+
