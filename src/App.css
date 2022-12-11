@@ -6,6 +6,8 @@
   --clr-secondary: lightblue;
   --clr-background: gray;
   --clr-neutral: white;
+
+  --ff-heading: 'Roboto Slab', serif;
 }
 
 *, *::before, *::after {
@@ -18,7 +20,7 @@
 
 html, body {
   height: 100%;
-  background-color: var(--clr-background);
+  background-color: var(--clr-neutral);
 }
 
 body {
@@ -37,4 +39,8 @@ input, button, textarea, select {
 
 p, h1, h2, h3, h4, h5, h6 {
   overflow-wrap: break-word;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--ff-heading);
 }

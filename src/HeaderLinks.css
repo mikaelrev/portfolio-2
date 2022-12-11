@@ -1,5 +1,5 @@
 .header__links {
-  color: white; 
+  color: var(--clr-primary); 
   text-decoration: none; 
   font-size: 1.25rem;
 }

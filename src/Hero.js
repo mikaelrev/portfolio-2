@@ -7,7 +7,7 @@ function Hero() {
     <div className="hero">
       <div className="hero__info">
         <h1>Hello, I'm Mikael</h1>
-        <p>I like coding</p>
+        <p>Let's make something</p>
         <NavLink to="/contact" className="hero__button">
           Contact me
         </NavLink>

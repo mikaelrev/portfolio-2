@@ -12,11 +12,11 @@
   color: var(--clr-neutral);
   border-radius: 3px;
   text-decoration: none;
-  background-color: var(--clr-secondary);
+  background-color: var(--clr-primary);
   padding: 10px;
   width: fit-content;
 }
 
 .hero__button:hover {
-  background-color: var(--clr-primary);
+  background-color: var(--clr-secondary);
 }

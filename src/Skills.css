@@ -1,8 +1,4 @@
-.skills {
-  margin-top: var(--container-margin-top);
-  margin-inline: var(--container-margin-inline);
-}
-
 .skills__container {
-  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }

@@ -2,3 +2,22 @@
   margin-top: var(--container-margin-top);
   margin-inline: var(--container-margin-inline);
 }
+
+.contact__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  gap: 3px;
+}
+
+.contact__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: var(--container-margin-top);
+  padding: 3rem;
+  background-color: var(--clr-primary);
+}
+
