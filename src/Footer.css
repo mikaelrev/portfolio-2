@@ -1,0 +1,6 @@
+.footer {
+  margin-top: auto;
+  background-color: var(--clr-secondary);
+  text-align: center;
+  padding: 1.25em;
+}

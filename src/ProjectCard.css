@@ -1,7 +1,8 @@
 .card {
   border-radius: 5px;
-  background-color: var(--clr-secondary);
   overflow: hidden;
+  background-color: aliceblue;
+  box-shadow: 0px 2px 3px lightgray;
 }
 
 .card__img {
@@ -16,6 +17,11 @@
   align-items: center;
   padding: 1rem;
   gap: 3px;
+}
+
+.card__body > p {
+  color: rgb(88, 88, 88);
+  margin-bottom: 1em;
 }
 
 .card__link {

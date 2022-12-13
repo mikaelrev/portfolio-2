@@ -2,9 +2,9 @@
   --container-margin-top: 3rem;
   --container-margin-inline: 10rem;
 
-  --clr-primary: orange;
-  --clr-secondary: lightblue;
-  --clr-background: gray;
+  --clr-primary: #3eb8c1 ;
+  --clr-secondary: #b8c13e;
+  --clr-background: lightgray;
   --clr-neutral: white;
 
   --ff-heading: 'Roboto Slab', serif;
@@ -19,8 +19,13 @@
 }
 
 html, body {
-  height: 100%;
   background-color: var(--clr-neutral);
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 body {
@@ -44,3 +49,4 @@ p, h1, h2, h3, h4, h5, h6 {
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--ff-heading);
 }
+

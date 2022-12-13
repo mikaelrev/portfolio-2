@@ -5,6 +5,7 @@
 
 .projects__grid {
   margin-top: var(--container-margin-top);
+  margin-bottom: 5rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 3rem;
