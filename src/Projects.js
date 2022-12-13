@@ -10,7 +10,7 @@ function Projects() {
       <div className="projects__grid">
         <ProjectCard
           Description="An ecommerce website where you can make an account and buy climbing gear"
-          ImageUrl="images/semester-project2.png"
+          ImageUrl="images/semester-project-2.png"
           Title="Semester Project 2"
           SiteUrl="https://admirable-swan-22efb8.netlify.app"
           RepoUrl="https://github.com/mikaelrev/semester-project2"
