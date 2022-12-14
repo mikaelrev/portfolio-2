@@ -4,7 +4,7 @@ import Heading from "./Heading";
 import ContactInfo from "./ContactInfo";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import EmailIcon from "@mui/icons-material/Email";
-import TwitterIcon from "@mui/icons-material/Twitter";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 function Contact() {
   return (
@@ -21,7 +21,15 @@ function Contact() {
           Title="Contact"
           Content="mikael.myrvang@gmail.com"
         />
-        <ContactInfo Icon={TwitterIcon} Title="Social" Content="Coming soon" />
+        <ContactInfo
+          Icon={LinkedInIcon}
+          Title="Social"
+          Content={
+            <a href="https://www.linkedin.com/in/mikael-myrvang-953a3523b/">
+              My LinkedIn
+            </a>
+          }
+        />
       </div>
     </div>
   );

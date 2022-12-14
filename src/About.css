@@ -11,10 +11,6 @@
   gap: 3rem;
 }
 
-.about__image {
-  width: 300px;
-}
-
 .about__bio {
   margin-top: 1em;
   display: flex;
