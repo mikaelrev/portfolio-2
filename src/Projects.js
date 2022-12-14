@@ -17,7 +17,7 @@ function Projects() {
         />
         <ProjectCard
           Description="Change this"
-          ImageUrl=""
+          ImageUrl="images/js-frameworks-ca.png"
           Title="JS Frameworks CA"
           SiteUrl=""
           RepoUrl="https://github.com/Noroff-FEU-Assignments/js-frameworks-course-assignment-mikaelrev"
