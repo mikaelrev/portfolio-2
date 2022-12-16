@@ -16,7 +16,7 @@
   font-size: 2rem; 
   font-family: var(--ff-heading);
   text-decoration: none; 
-  color: var(--clr-primary); 
+  color: var(--clr-accent); 
 }
 
 .header__logo:hover {

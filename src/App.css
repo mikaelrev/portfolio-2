@@ -2,11 +2,9 @@
   --container-margin-top: 3rem;
   --container-margin-inline: 10rem;
 
-  --clr-primary: #3eb8c1 ;
-  --clr-secondary: #b8c13e;
-  --clr-background: lightgray;
-  --clr-neutral: white;
-
+  --clr-accent: #ffbe00;
+  --clr-background: white;
+  
   --ff-heading: 'Roboto Slab', serif;
 }
 

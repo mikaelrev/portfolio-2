@@ -23,16 +23,16 @@
 }
 
 .about__link {
-  color: var(--clr-neutral);
+  color: black;
   border-radius: 3px;
   text-decoration: none;
-  background-color: var(--clr-primary);
+  background-color: var(--clr-accent);
   margin-top: 1em;
   padding: 10px;
   width: fit-content;
 }
 
 .about__link:hover {
-  background-color: var(--clr-secondary);
+  background-color: rgba(255, 179, 0, 0.586);
 }
 

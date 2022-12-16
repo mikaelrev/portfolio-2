@@ -1,7 +1,10 @@
 .hero {
-  margin-top: var(--container-margin-top);
-  margin-inline: var(--container-margin-inline);
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
   text-align: center;
+
 }
 
 .hero__info > p {
@@ -12,11 +15,11 @@
   color: var(--clr-neutral);
   border-radius: 3px;
   text-decoration: none;
-  background-color: var(--clr-primary);
+  background-color: var(--clr-accent);
   padding: 10px;
   width: fit-content;
 }
 
 .hero__button:hover {
-  background-color: var(--clr-secondary);
+  background-color: rgba(255, 179, 0, 0.586);
 }
