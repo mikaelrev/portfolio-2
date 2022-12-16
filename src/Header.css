@@ -32,3 +32,13 @@
 .header_link:hover {
   color: black;
 }
+
+@media (max-width: 850px) {
+  .header {
+    flex-direction: column;
+  }
+
+  .header__right {
+    gap: 3rem;
+  }
+}

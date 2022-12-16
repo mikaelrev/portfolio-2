@@ -9,3 +9,13 @@
   padding: 1rem;
   text-align: center;
 }
+
+@media (max-width: 850px) {
+  .skills__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .skillcard__container {
+    padding: 0.25em;
+  }
+}

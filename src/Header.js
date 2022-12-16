@@ -13,7 +13,7 @@ function Header() {
       </div>
       <div className="header__right">
         <HeaderLinks link="/about" title="About" />
-        <HeaderLinks link="/projects" title="My projects" />
+        <HeaderLinks link="/projects" title="Projects" />
         <HeaderLinks link="/contact" title="Contact" />
       </div>
     </div>

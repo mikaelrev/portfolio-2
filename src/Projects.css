@@ -10,3 +10,19 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 3rem;
 }
+
+@media (max-width: 1150px) {
+  .projects__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
+@media (max-width: 800px) {
+  .projects {
+    margin-inline: 2em;
+  }
+  .projects__grid {
+    grid-template-columns: repeat(1, 1fr)
+  }
+}
