@@ -16,7 +16,7 @@ function Projects() {
           RepoUrl="https://github.com/mikaelrev/semester-project2"
         />
         <ProjectCard
-          Description="Change this"
+          Description="lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem"
           ImageUrl="images/js-frameworks-ca.png"
           Title="JS Frameworks CA"
           SiteUrl=""

@@ -12,13 +12,12 @@ function About() {
         <div className="about__info">
           <div className="about__bio">
             <h1>Mikael Myrvang</h1>
-            <p>I'm a front-end developer student from Norway.</p>
+            <p>Grew up in Ålesund, Norway. Studied in Bergen to become a front-end developer.</p>
             <p>
-              I'm hard working, and always willing to learn new things and
-              finding new solutions.{" "}
+              I'm currently working in a group home for disabled people, but want to make the switch to become developer.{" "}
             </p>
             <p>
-              I enjoy reading books, jogging, watching football and playing
+              Aside from coding, I enjoy jogging, reading books, watching football and playing
               video games.
             </p>
 
